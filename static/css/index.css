@@ -1,0 +1,15 @@
+html{
+    font-size: 10px;
+}
+.footer-content{
+    background-color: #58AFFF;
+    padding-top: 1px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-content .footer-title{
+    color: #fff;
+
+}

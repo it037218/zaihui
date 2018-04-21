@@ -1,0 +1,33 @@
+.footer-content {
+    width: 100%;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content .footer-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.footer-content .inline-list {
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+}
+.footer-content .link-list a{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.footer-content .link-list a{
+    display: inline-block;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin: .4rem 0;
+}
