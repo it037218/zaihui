@@ -1,24 +1,27 @@
+html{
+    font-size: 10px;
+}
 .header-content{
-    height: 23rem;
+    /*height: 22.9rem;*/
     background: url("../images/trend-header-bg.png") no-repeat;
     background-size: cover;
-    padding-top: 1px;
+    /*padding-top: 1px;*/
+    padding: 7.5rem 0 9.2rem 0 ;
 }
 .header-content p{
     color: #fff;
 }
 .header-content p:first-child{
-    font-size: 3.3rem;
+    font-size: 2.8rem;
     text-align: center;
     font-weight: bold;
-    margin-top: 8rem;
 }
 .header-content p:last-child{
     font-size: 1.4rem;
     text-align: center;
 }
 .trend-content{
-    padding: 2rem 0;
+    /*padding: 5rem 0;*/
 }
 .trend-content>p{
     font-size: 2.8rem;
@@ -26,14 +29,14 @@
     text-align: center;
 }
 .trend-content ul{
-    padding: 0 2rem;
+    padding: 0rem 2rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 .trend-content ul li{
     border-bottom: 1px solid #ccc;
     width: 100%;
-    padding: 2rem 0;
+    padding: 3.8rem 0;
 }
 .trend-content ul li a {
     display: block;
@@ -43,11 +46,13 @@
     color: #707070;
 }
 .trend-content ul li a p{
-    height: 2rem;
-    line-height: 2rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
 }
-.trend-content ul li a p:first-child{
-    font-weight: 600;
+.trend-content ul li a > p:first-of-type {
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1.4rem;
 }
 
 .trend-content ul li:last-child{
