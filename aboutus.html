@@ -16,32 +16,36 @@
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <style>
-        .header-content{
+        .header-content {
             background: url("./static/images/aboutus-header-bg.png") no-repeat;
             background-size: cover;
             height: 23rem;
             width: 100%;
             padding-top: 1px;
         }
-        .header-content p{
+
+        .header-content p {
             color: #fff;
             text-align: center;
             /*letter-spacing:1px*/
         }
-        .header-content p:first-child{
+
+        .header-content p:first-child {
             font-size: 2.8rem;
             margin-top: 7.5rem;
         }
-        .header-content p:nth-child(2){
+
+        .header-content p:nth-child(2) {
             margin-top: .5rem;
             font-size: 1.2rem;
         }
 
-        .header-content p:nth-child(3){
+        .header-content p:nth-child(3) {
             font-size: 1rem;
             margin-top: .5rem;
             line-height: 2rem;
         }
+
         .footer-content {
             background-color: #F2F2F2;
             padding-top: 1px;
@@ -56,6 +60,41 @@
 
         }
 
+        .about-content .title {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 4rem;
+        }
+        .about-content .summ{
+            font-size: 1.4rem;
+            color: #58AFFF;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .about-content .text {
+            font-size: 1rem;
+            color: #4F4F4F;
+            margin-top: 1.8rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+        }
+        .show-image li {
+            width: 100%;
+            text-align: center;
+        }
+        .show-image li img{
+            width: 15rem;
+            margin-top: 5rem;
+        }
+        .show-image li img:first-child{
+            margin-top: 2.6rem;
+        }
+        .show-image li img:last-child{
+            margin-bottom: 3rem;
+        }
+        .process{
+            margin-top: 2.3rem;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +118,102 @@
     </p>
 </article>
 
-<article>
+<article class="about-content">
+    <p class="title">公司介绍</p>
+    <p class="text">
+        再惠（上海）网络科技有限公司成立于2015年，是一家专注于为中国本地生活服务领域的商户提供一站式营销和顾客忠诚度管理的互联网大数据价值链公司。目前在上海、杭州、宁波、绍兴、南京、苏州、无锡、厦门、福州、武汉、合肥等多个城市设立了直属分公司，员工超过400人。再惠系统采用大数据和机器学习技术收集及分析消费者行为数据，细致到SKU量级的颗粒度，全方位地为商户定制会员忠诚度管理与营销解决方案。
+    </p>
+    <p class="text">
+        成立两年多以来，再惠以其先进的会员忠诚度管理与营销解决方案，帮助数千家餐饮企业累计增加了超过5亿元营业额。再惠在行业的出色成绩，先后吸引了真格基金、光速中国、DCM、贝塔斯曼亚洲创业基金和蓝湖资本在天使轮、A轮和B轮近3000万美金的融资。
+    </p>
+    <p class="text">
+        再惠在2017年11月荣获中国财经峰会冬季论坛的“2017年度最具成长性公司奖”，在2018年1月荣获中国信息协会和信息化观测网颁发的“2017中国信息化和软件服务业年度影响力企业奖”。
+    </p>
+    <p class="title">品牌故事</p>
+    <p class="summ">
+        再惠：客常谊久, 厚惠有期
+    </p>
+    <p class="text">
+        传达了“优惠”和“再会”的双重含义：<br>
+        每次都能享受优惠，感受到商户的诚意。亲密如友，每一次的分别，<br>
+        都是为了下一次更好的相会。
+    </p>
+    <p class="title">使命&愿景</p>
+    <p class="summ">
+        让开店成为一种享受
+    </p>
+    <p class="text">
+        通过互联网技术，让每笔交易做到心中有数，让每个会员对你不弃不离。<br>
+        每一笔支付都是生活的温度，每一次交易都连接着友谊。<br>
+        再惠为所有勤奋、敬业、匠心至诚的餐饮创业者点赞和赋能,每一位认真创业的老板，都值得我们认真对待。
+    </p>
+    <p class="title">发展历程</p>
+    <div class="process">
+        <ul>
+            <li class="fltext">
+                <p class="process-title">2018年1月</p>
+                <p class="text">成立合肥、福州分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2017年11月</p>
+                <p class="text">成立无锡、厦门、武汉分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2017年9月</p>
+                <p class="text">获得两千万美元B轮融资
+                    蓝湖资本领投，光速中国、
+                    真格基金、DCM跟投</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2017年5月</p>
+                <p class="text">成立绍兴分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2017年3月</p>
+                <p class="text">成立杭州、南京分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2016年10月</p>
+                <p class="text">成立宁波分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2016年8月</p>
+                <p class="text">成立苏州分公司</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2016年5月</p>
+                <p class="text">获得近千万美元A轮融资，
+                    DCM领投，光速中国、真格基金
+                    贝塔斯曼亚洲创业基金跟投</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2015年11月</p>
+                <p class="text">产品正式上线</p>
+            </li>
+            <li class="fltext">
+                <p class="process-title">2015年7月</p>
+                <p class="text">获得数百万美元天使轮融资，
+                    真格基金和光速中国联合领投</p>
+            </li>
+        </ul>
+    </div>
+    <p class="title">努力工作，纵情生活</p>
+    <div class="show-image">
+        <ul>
+            <li>
+                <img src="./static/images/aboutus-1.jpg">
+            </li>
+            <li>
+                <img src="./static/images/aboutus-2.jpg">
+            </li>
+            <li>
+                <img src="./static/images/aboutus-3.jpg">
+            </li>
+        </ul>
+    </div>
+    <p class="text" style="margin-bottom: 6.2rem">
+        在再惠，我们不仅努力做好产品和业务，更拼命去体验和生活，带着每一位同事多去看世界，不敢有些许怠慢，一起跨越壮阔中国，一起走过世界尽头。不负袍泽不负己，不负客户不负卿。
+    </p>
 </article>
 <article>
 </article>
