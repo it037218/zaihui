@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f162fdfb-61e5-4c34-b251-2ee97825239a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/smart-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/kehuitou-content-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_kehuitou.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_kehuitou.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_zhihuixin.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_zhihuixin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_zhihuixin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/product_zhihuixin.html">
+      <file leaf-file-name="product_kehuitou.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product_kehuitou.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="230">
+              <caret line="176" column="31" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,7 +64,6 @@
         <option value="$PROJECT_DIR$/product_moshushi.html" />
         <option value="$PROJECT_DIR$/product_jukefu.html" />
         <option value="$PROJECT_DIR$/product_huitouke.html" />
-        <option value="$PROJECT_DIR$/product_kehuitou.html" />
         <option value="$PROJECT_DIR$/conact.html" />
         <option value="$PROJECT_DIR$/static/recruit.html" />
         <option value="$PROJECT_DIR$/recruit.html" />
@@ -66,6 +71,7 @@
         <option value="$PROJECT_DIR$/aboutus.html" />
         <option value="$PROJECT_DIR$/product_brandservice.html" />
         <option value="$PROJECT_DIR$/product_zhihuixin.html" />
+        <option value="$PROJECT_DIR$/product_kehuitou.html" />
       </list>
     </option>
   </component>
@@ -171,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524279734618</updated>
       <workItem from="1524279736770" duration="9011000" />
-      <workItem from="1524486961009" duration="13092000" />
+      <workItem from="1524486961009" duration="14602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22103000" />
+    <option name="totallyTimeSpent" value="23613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -189,7 +195,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.093333334" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31272727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,13 +352,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/item-01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_kehuitou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="72" column="7" lean-forward="true" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_jukefu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -478,8 +477,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product_zhihuixin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="185">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/kehuitou-content-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_kehuitou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="176" column="31" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
         </state>
       </provider>
     </entry>
