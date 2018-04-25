@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f162fdfb-61e5-4c34-b251-2ee97825239a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/ke-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ke-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ke-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ke-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ke-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/kehuitou-content-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/ke-05.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_kehuitou.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_kehuitou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_zhihuixin.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_zhihuixin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +24,8 @@
       <file leaf-file-name="product_kehuitou.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product_kehuitou.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="176" column="31" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
+            <state relative-caret-position="343">
+              <caret line="132" column="55" selection-start-line="132" selection-start-column="55" selection-end-line="132" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -177,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524279734618</updated>
       <workItem from="1524279736770" duration="9011000" />
-      <workItem from="1524486961009" duration="14602000" />
+      <workItem from="1524486961009" duration="15013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23613000" />
+    <option name="totallyTimeSpent" value="24024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -352,13 +349,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/item-01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_jukefu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="44" column="21" lean-forward="true" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_moshushi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -485,10 +475,17 @@
     <entry file="file://$PROJECT_DIR$/static/images/kehuitou-content-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/product_jukefu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product_kehuitou.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="176" column="31" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
+        <state relative-caret-position="343">
+          <caret line="132" column="55" selection-start-line="132" selection-start-column="55" selection-end-line="132" selection-end-column="55" />
         </state>
       </provider>
     </entry>
