@@ -418,9 +418,7 @@ textarea {
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
 }
-html{
-    font-size: 10px;
-}
+
 .fl{
     float: left;
 }
@@ -435,4 +433,24 @@ html{
 }
 .w100{
     width: 100%;
+}
+@media screen and (max-width: 414px){
+    html{
+        font-size: 15.45px!important;
+    }
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 14px!important;
+    }
+}
+@media screen and (max-width: 360px){
+    html{
+        font-size: 13.45px!important;
+    }
+}
+@media screen and (max-width: 320px){
+    html{
+        font-size: 12px!important;
+    }
 }

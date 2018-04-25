@@ -11,8 +11,9 @@
     <meta content="telephone=no, address=no" name="format-detection">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="./static/css/normalize.css">
     <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/normalize.css">
+
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <style>
@@ -29,22 +30,23 @@
             /*letter-spacing:1px*/
         }
         .header-content p:first-child{
-            font-size: 2.8rem;
+            font-size: 1.7rem;
             margin-top: 7.5rem;
         }
         .header-content p:nth-child(2){
             margin-top: .5rem;
-            font-size: 1.2rem;
+            font-size: .86rem;
         }
 
         .header-content p:nth-child(3){
-            font-size: 1rem;
+            font-size: .86rem;
             margin-top: .5rem;
             line-height: 2rem;
         }
         .footer-content {
             background-color: #F2F2F2;
             padding-top: 1px;
+            padding-bottom: 1px;
         }
 
         .footer-content a {
@@ -53,9 +55,39 @@
 
         .footer-content .footer-title {
             color: #7E7E7E;
-
         }
-
+        .footer-content .remark p{
+            color: #7E7E7E;
+            text-align: center;
+        }
+        .footer-content .remark p:first-child{
+            margin-top: 2.78rem;
+        }
+        .footer-content .remark p:last-child{
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        .content-wrapper{
+            overflow: hidden;
+        }
+        .content-wrapper li{
+            overflow: hidden;
+            padding: 2rem 3.2rem;
+            box-sizing: border-box;
+        }
+        .content-wrapper li div img{
+            width: 7.77rem;
+        }
+        .content-wrapper .p1{
+            font-size: 1.14rem;
+            text-align: center;
+            color: #56AE91;
+            margin-bottom: .65rem;
+        }
+        .content-wrapper .p2{
+            font-size: .86rem;
+        }
     </style>
 </head>
 <body>
@@ -83,7 +115,49 @@
     </p>
 </article>
 
-<article>
+<article class="content-wrapper">
+    <ul>
+        <li>
+            <div class="w50 fl" style="text-align: left">
+                <p class="p1">强大的支付功能</p>
+                <p class="p2">智能融合支付与会员系统，
+                    可自动计算积分、储值和优惠券，
+                    无需商户手动输入减免金额，
+                    提升运营效率和收银准确率。
+                </p>
+            </div>
+            <div class="w50 fl" style="text-align: center"><img src="./static/images/ju-01.jpg"></div>
+        </li>
+        <li>
+            <div class="w50 fl" style="text-align: center"><img src="./static/images/ju-02.jpg"></div>
+            <div class="w50 fl"  style="text-align: right">
+                <p class="p1">
+                    清晰的账单查询
+                </p>
+                <p class="p2">
+                    可按储值、积分、礼品卡等各种分类
+                    查询账单，避免对账时出现有疑问的
+                    款项，影响财务的正确性
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="w50 fl" style="text-align: left">
+                <p class="p1">
+                    会员动态，熟记于心
+                </p>
+                <p class="p2">
+                    可清楚查询会员储值、销券、
+                    积分、消费等信息，
+                    便于开展个性化的营销服务
+                </p>
+            </div>
+            <div class="w50 fl" style="text-align: center"><img src="./static/images/ju-03.jpg"></div>
+        </li>
+
+    </ul>
+
+
 </article>
 <article>
 </article>
@@ -121,7 +195,14 @@
             </div>
         </div>
     </div>
-
+    <div class="remark">
+        <p style="font-size: .85rem;text-align: center">
+            咨询热线：400-6052-3213
+        </p>
+        <p style="font-size: .57rem;text-align: center">
+            © 上海羊晨羊晓信息技术有限公司  沪ICP备15033564号
+        </p>
+    </div>
 
 </article>
 
