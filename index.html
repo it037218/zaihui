@@ -65,20 +65,6 @@
         background-color: #fff;
         width: 15.71rem;
     }
-
-    /*#header .menu-list ul {*/
-    /*padding: .6rem 2.4rem 4rem 2.4rem;*/
-    /*box-sizing: border-box;*/
-    /*}*/
-
-    /*#header .menu-list li {*/
-    /*height: 2.57rem;*/
-    /*line-height: 2.57rem;*/
-    /*border-bottom: 1px solid #F3F3F3;*/
-    /*}*/
-    /*.menu-list .topmenu{*/
-    /*font-size: 1.14rem;*/
-    /*}*/
 </style>
 <article id="header">
     <div>
@@ -91,6 +77,9 @@
         </div>
         <div class="menu-list">
             <style>
+                .menu-list{
+                    right: -15.71rem!important;
+                }
                 .accordion {
                     width: 100%;
                     max-width: 360px;
@@ -99,7 +88,7 @@
                     background: #FFF;
                     -webkit-border-radius: 4px;
                     border-radius: 4px;
-                    display: none;
+                    /*display: none;*/
                 }
 
                 .accordion  {
@@ -122,7 +111,11 @@
                     box-sizing: border-box;
                     text-align: left;
                 }
+                .link a{
+                    text-decoration: none;
+                    color: #4D4D4D;
 
+                }
                 .accordion li:last-child .link {
                     border-bottom: 0;
                 }
@@ -185,30 +178,30 @@
             </style>
             <ul id="accordion" class="accordion">
                 <li>
-                    <div class="link"><i class="fa fa-paint-brush"></i>首页<i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-paint-brush"></i><a href="./index.html">首页</a><i class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
                     <div class="link"><i class="fa fa-code"></i>产品中心<i class="fa fa-chevron-down"></i></div>
                     <ul class="submenu">
-                        <li><a href="#">客回头</a></li>
-                        <li><a href="#">智汇新</a></li>
-                        <li><a href="#">聚客付</a></li>
-                        <li><a href="#">魔数师</a></li>
-                        <li><a href="#">品牌服务</a></li>
+                        <li><a href="./product_kehuitou.html">客回头</a></li>
+                        <li><a href="./product_zhihuixin.html">智汇新</a></li>
+                        <li><a href="./product_jukefu.html">聚客付</a></li>
+                        <li><a href="./product_moshushi.html">魔数师</a></li>
+                        <li><a href="./product_brandservice.html">品牌服务</a></li>
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i>案例<i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_list.html">案例</a><i class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i>动态<i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./trend.html">动态</a><i class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
                     <div class="link"><i class="fa fa-globe"></i>关于我们<i class="fa fa-chevron-down"></i></div>
                     <ul class="submenu">
-                        <li><a href="#">关于再惠</a></li>
-                        <li><a href="#">招贤纳士</a></li>
-                        <li><a href="#">联系我们</a></li>
+                        <li><a href="./aboutus.html">关于再惠</a></li>
+                        <li><a href="./aboutus1.html">招贤纳士</a></li>
+                        <li><a href="./conact.html">联系我们</a></li>
                     </ul>
                 </li>
                 <li>
@@ -467,6 +460,22 @@
     </div>
 
 </article>
+<style>
+    .cover{
+        background: #000;
+        opacity: .5;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        display: none;
+    }
+</style>
+<div class="cover">
+
+</div>
 <script src="./static/js/jquery.min.js"></script>
 <script>
     $(function () {
@@ -496,6 +505,21 @@
 
         var accordion = new Accordion($('#accordion'), false);
     });
+</script>
+<script>
+    $(function () {
+        $(".menu").click(function () {
+            $(".menu-list").css('transform','translate(-15.71rem)')
+            $('.cover').show()
+
+
+        })
+        $(".cover").click(function () {
+            $(".menu-list").css('transform','translate(0)')
+            $(this).hide()
+
+        })
+    })
 </script>
 </body>
 </html>
