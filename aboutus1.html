@@ -92,7 +92,7 @@
             font-size: .71rem;
             color: #4F4F4F;
             margin-top: 1.28rem;
-            padding: 0 .71rem;
+            padding: 0 2.14rem;
             box-sizing: border-box;
         }
 
@@ -137,7 +137,45 @@
         .text2{
             text-align: center;
             color: #58AFFF;
+            margin-top: 1rem;
+            padding: 0 2.14rem;
         }
+        .zhaopin{
+            overflow: hidden;
+            margin-top: 3.2rem;
+        }
+        .zhaopin .job-title{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2.14rem;
+        }
+        .zhaopin .job-title span{
+            display: inline-block;
+            height: 1.79rem;
+            line-height: 1.79rem;
+            text-align: center;
+            border-radius: .89rem;
+            font-size: 1rem;
+            padding: 0 2rem;
+        }
+        .zhaopin .job-title span.active{
+            background-color: #58AFFF;
+            color: #fff;
+        }
+        .zhaopin-list{
+            padding: 0 2.14rem;
+        }
+        .zhaopin .zhaopin-list li{
+            overflow: hidden;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;
+            height: 4.5rem;
+        }
+        .zhaopin .zhaopin-list li div{
+            height: 100%;
+            line-height: 4.5rem;
+        }
+
     </style>
 </head>
 <body>
@@ -255,13 +293,51 @@
     <p class="title">
         我们希望遇见谁
     </p>
-    <p class="text">
+    <p class="text" style="text-align: center">
         如果你与我们有相同的情怀和梦想；如果你身怀绝技，希望通过努力为世界创造价值；如果你有有趣的经历、中毒级的爱好并长久坚持、喜欢互联网科技，快到碗里来！风里雨里，我们在这里等你！
     </p>
-    <p class="text2">
+    <p class="text2" style="font-size: .86rem">
         再惠曾在2016、2017年荣获智联招聘和北京大学社会
         调研研究中心共同颁发的“中国年度最佳雇主提名奖”。
     </p>
+    <div class="zhaopin">
+        <div class="job-title">
+            <span class="active">技术</span>
+            <span>设计</span>
+            <span>影业</span>
+        </div>
+        <div class="job-title">
+            <span>销售</span>
+            <span>人事</span>
+            <span>全部</span>
+        </div>
+        <div class="zhaopin-list">
+            <ul>
+                <li>
+                    <div class="fl">前端工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">高级后端（python）工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">高级JAVA工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">IOS工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">架构师</div>
+                    <div class="fr">上海</div>
+                </li>
+            </ul>
+            <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="" style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a></p>
+
+        </div>
+    </div>
 </article>
 <article>
 </article>
