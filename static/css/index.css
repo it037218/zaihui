@@ -133,3 +133,7 @@
 .txtr p:last-child,.txtl p:last-child{
     line-height: 1rem;
 }
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
