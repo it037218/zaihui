@@ -103,7 +103,53 @@
         }
         .process{
             margin-top: 1.64rem;
+            overflow: hidden;
         }
+        .process li{
+            width: 100%;
+            overflow: hidden;
+            background: url("./static/images/aboutus-line.png") no-repeat;
+            background-position: center;
+        }
+        .process li.fltext div{
+            float: left;
+            width: 48%;
+        }
+        .process li.frtext div{
+            float: right;
+            width: 48%;
+        }
+        .process li.fltext p{
+            text-align: right;
+        }
+        .process li.frtext p{
+            text-align: left;
+        }
+        .process li div p:first-child{
+            position: relative;
+        }
+        .process li.frtext div p:first-child:after{
+            content: "";
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            border-radius: 20px;
+            background-color: #58afff;
+            left: -.9rem;
+            top: 11px;
+        }
+        .process li.fltext div p:first-child:after {
+            content: "";
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            border-radius: 20px;
+            background-color: #58afff;
+            right: -.9rem;
+            top: 11px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -346,49 +392,78 @@
     <div class="process">
         <ul>
             <li class="fltext">
+                <div>
                 <p class="process-title">2018年1月</p>
                 <p class="text">成立合肥、福州分公司</p>
+                </div>
             </li>
-            <li class="fltext">
+            <li class="frtext">
+                <div>
+
                 <p class="process-title">2017年11月</p>
                 <p class="text">成立无锡、厦门、武汉分公司</p>
+                </div>
             </li>
             <li class="fltext">
+                <div>
+
                 <p class="process-title">2017年9月</p>
                 <p class="text">获得两千万美元B轮融资
                     蓝湖资本领投，光速中国、
                     真格基金、DCM跟投</p>
+                </div>
             </li>
-            <li class="fltext">
+            <li class="frtext">
+                <div>
+
                 <p class="process-title">2017年5月</p>
                 <p class="text">成立绍兴分公司</p>
+                </div>
             </li>
             <li class="fltext">
+                <div>
+
                 <p class="process-title">2017年3月</p>
                 <p class="text">成立杭州、南京分公司</p>
+                </div>
             </li>
-            <li class="fltext">
+            <li class="frtext">
+                <div>
+
                 <p class="process-title">2016年10月</p>
                 <p class="text">成立宁波分公司</p>
+                </div>
             </li>
             <li class="fltext">
+                <div>
+
                 <p class="process-title">2016年8月</p>
                 <p class="text">成立苏州分公司</p>
+                </div>
             </li>
-            <li class="fltext">
+            <li class="frtext">
+                <div>
+
                 <p class="process-title">2016年5月</p>
                 <p class="text">获得近千万美元A轮融资，
                     DCM领投，光速中国、真格基金
                     贝塔斯曼亚洲创业基金跟投</p>
+                </div>
             </li>
             <li class="fltext">
+                <div>
+
                 <p class="process-title">2015年11月</p>
                 <p class="text">产品正式上线</p>
+                </div>
             </li>
-            <li class="fltext">
+            <li class="frtext">
+                <div>
+
                 <p class="process-title">2015年7月</p>
                 <p class="text">获得数百万美元天使轮融资，
                     真格基金和光速中国联合领投</p>
+                </div>
             </li>
         </ul>
     </div>
