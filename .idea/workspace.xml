@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f162fdfb-61e5-4c34-b251-2ee97825239a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/mo-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mo-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mo-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/moshuzhi-show-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_jukefu.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_jukefu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product_moshushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_moshushi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_zhihuixin.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_zhihuixin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Group 2 Copy@3x.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +37,8 @@
       <file leaf-file-name="product_moshushi.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product_moshushi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+            <state relative-caret-position="96">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
               <folding>
                 <element signature="n#article#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
@@ -227,25 +219,25 @@
       <updated>1524279734618</updated>
       <workItem from="1524279736770" duration="9011000" />
       <workItem from="1524486961009" duration="34833000" />
-      <workItem from="1524839939870" duration="4661000" />
+      <workItem from="1524839939870" duration="4811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48505000" />
+    <option name="totallyTimeSpent" value="48655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31272727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31272727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -552,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product_moshushi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+        <state relative-caret-position="96">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
           <folding>
             <element signature="n#article#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
