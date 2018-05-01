@@ -175,6 +175,12 @@
             height: 100%;
             line-height: 4.5rem;
         }
+        .image-list li{
+            box-sizing: border-box;
+        }
+        .image-list li img{
+            width: 24%;
+        }
 
     </style>
 </head>
@@ -224,6 +230,55 @@
         top: 0;
         background-color: #fff;
         width: 15.71rem;
+    }
+    .message li{
+        position: relative;
+    }
+    @keyframes shake-between-left{
+        0% {
+            transform: translateX(0px)
+        }
+        to {
+            transform: translateX(30px)
+        }
+    }
+    @keyframes shake-between-right{
+        0% {
+            transform: translateX(0px)
+        }
+        to {
+            transform: translateX(-30px)
+        }
+    }
+    .message li:nth-child(1) span {
+        animation:  shake-between-left 1s linear 1.5s infinite alternate
+    }
+    .message li:nth-child(2) span {
+        animation:  shake-between-right 1.25s linear 1.75s infinite alternate
+    }
+    .message li:nth-child(3) span {
+        animation:  shake-between-left 1.5s linear 2s infinite alternate
+    }
+    .message li:nth-child(4) span {
+        animation:  shake-between-right 1s linear 1.5s infinite alternate
+    }
+    .message li:nth-child(5) span {
+        animation:  shake-between-left 1.25s linear 1.75s infinite alternate
+    }
+    .message li:nth-child(6) span {
+        animation:  shake-between-right 1.5s linear 2s infinite alternate
+    }
+    .message li:nth-child(7) span {
+        animation:  shake-between-left 1s linear 1.5s infinite alternate
+    }
+    .message li:nth-child(8) span {
+        animation:  shake-between-right 1.25s linear 1.75s infinite alternate
+    }
+    .message li:nth-child(9) span {
+        animation:  shake-between-left 1.5s linear 2s infinite alternate
+    }
+    .message li:nth-child(10) span {
+        animation:  shake-between-right 1.75s linear 1.5s infinite alternate
     }
 </style>
 
@@ -412,49 +467,50 @@
     <div class="image-list">
         <ul>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-a1.jpg">
+                <img src="./static/images/pic-b1.jpg">
+                <img src="./static/images/pic-c1.jpg">
+
+                <img src="./static/images/pic-d1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-e1.jpg">
+                <img src="./static/images/pic-f1.jpg">
+
+                <img src="./static/images/pic-g1.jpg">
+                <img src="./static/images/pic-h1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-i1.jpg">
+
+                <img src="./static/images/pic-j1.jpg">
+                <img src="./static/images/pic-k1.jpg">
+                <img src="./static/images/pic-l1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-m1.jpg">
+                <img src="./static/images/pic-n1.jpg">
+                <img src="./static/images/pic-o1.jpg">
+
+                <img src="./static/images/pic-p1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-q1.jpg">
+                <img src="./static/images/pic-r1.jpg">
+
+                <img src="./static/images/pic-s1.jpg">
+                <img src="./static/images/pic-t1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-u1.jpg">
+
+                <img src="./static/images/pic-v1.jpg">
+                <img src="./static/images/pic-w1.jpg">
+                <img src="./static/images/pic-x1.jpg">
             </li>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
-                <img src="./static/images/a1.jpg">
+                <img src="./static/images/pic-y1.jpg">
+                <img src="./static/images/pic-z1.jpg">
             </li>
         </ul>
 

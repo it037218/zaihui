@@ -79,9 +79,10 @@
         </div>
         <div class="menu-list">
             <style>
-                .menu-list{
-                    right: -15.71rem!important;
+                .menu-list {
+                    right: -15.71rem !important;
                 }
+
                 .accordion {
                     width: 100%;
                     max-width: 360px;
@@ -93,7 +94,7 @@
                     /*display: none;*/
                 }
 
-                .accordion  {
+                .accordion {
                     padding: 0 1.71rem;
 
                 }
@@ -113,11 +114,13 @@
                     box-sizing: border-box;
                     text-align: left;
                 }
-                .link a{
+
+                .link a {
                     text-decoration: none;
                     color: #4D4D4D;
 
                 }
+
                 .accordion li:last-child .link {
                     border-bottom: 0;
                 }
@@ -180,7 +183,8 @@
             </style>
             <ul id="accordion" class="accordion">
                 <li>
-                    <div class="link"><i class="fa fa-paint-brush"></i><a href="./index.html">首页</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-paint-brush"></i><a href="./index.html">首页</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
                     <div class="link"><i class="fa fa-code"></i>产品中心<i class="fa fa-chevron-down"></i></div>
@@ -193,10 +197,12 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_list.html">案例</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_list.html">案例</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./trend.html">动态</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./trend.html">动态</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
                 <li>
                     <div class="link"><i class="fa fa-globe"></i>关于我们<i class="fa fa-chevron-down"></i></div>
@@ -359,28 +365,43 @@
         </p>
         <ul>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-01.jpg') no-repeat">
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-02.jpg') no-repeat">
+
+            </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-03.jpg') no-repeat">
+
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-04.jpg') no-repeat">
+
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-05.jpg') no-repeat">
+
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-06.jpg') no-repeat">
+
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-07.jpg') no-repeat">
+
+                </div>
             </li>
             <li>
-                <img src="./static/images/trust-01.jpeg">
+                <div style="background: url('./static/images/brand1-08.jpg') no-repeat">
+
+                </div>
             </li>
         </ul>
     </div>
@@ -462,7 +483,7 @@
 
 </article>
 <style>
-    .cover{
+    .cover {
         background: #000;
         opacity: .5;
         height: 100%;
@@ -479,5 +500,50 @@
 </div>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/app.js"></script>
+<script>
+    $(function () {
+        var logoListArray = [
+            './static/images/brand1-01.jpg',
+            './static/images/brand1-02.jpg',
+            './static/images/brand1-03.jpg',
+            './static/images/brand1-04.jpg',
+            './static/images/brand1-05.jpg',
+            './static/images/brand1-06.jpg',
+            './static/images/brand1-07.jpg',
+            './static/images/brand1-08.jpg',
+            './static/images/brand1-09.jpg',
+            './static/images/brand1-10.jpg',
+            './static/images/brand1-11.jpg',
+            './static/images/brand1-12.jpg',
+            './static/images/brand1-13.jpg',
+            './static/images/brand1-14.jpg',
+        ];
+        var logoList = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+
+        function getRandomArrayElements(arr, count) {
+            var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
+            while (i-- > min) {
+                index = Math.floor((i + 1) * Math.random());
+                temp = shuffled[index];
+                shuffled[index] = shuffled[i];
+                shuffled[i] = temp;
+            }
+            return shuffled.slice(min);
+        }
+        setInterval(changeBrand,3000)
+
+        function changeBrand() {
+            var targetNum = getRandomArrayElements(logoList, 4) ;
+
+            for (var i in targetNum){
+                var idx = Math.floor(Math.random()*8)
+                $(".trust").find('li').eq(idx).find('div').css('background-image','url('+logoListArray[targetNum[i]]+')')
+            }
+        }
+
+    })
+
+
+</script>
 </body>
 </html>

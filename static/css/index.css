@@ -88,6 +88,7 @@
 }
 .content-wrapper .content-list.trust {
     overflow: hidden;
+    margin-bottom: 3.15rem;
 }
 .content-wrapper .content-list.trust li{
     width: 25%;
@@ -100,9 +101,17 @@
 
     vertical-align: middle!important;
 }
-.content-wrapper .trust li img{
+.content-wrapper .content-list.trust li>div{
     width: 100%;
-    vertical-align: middle!important;
+    height: 5rem;
+    text-align: center;
+    vertical-align: middle;
+    background-position: center!important;
+    background-size: 80% auto!important;
+}
+.content-wrapper .trust li img{
+    /*width: 100%;*/
+    /*vertical-align: middle!important;*/
 
 }
 .content-list .summ{
