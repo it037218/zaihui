@@ -598,14 +598,14 @@
     </p>
     <div class="zhaopin">
         <div class="job-title">
-            <span class="active">技术</span>
-            <span>设计</span>
-            <span>影业</span>
+            <span class="active" data="0">技术</span>
+            <span data="1">设计</span>
+            <span data="2">影业</span>
         </div>
         <div class="job-title">
-            <span>销售</span>
-            <span>人事</span>
-            <span>全部</span>
+            <span data="3">销售</span>
+            <span data="4">人事</span>
+            <span data="5">全部</span>
         </div>
         <div class="zhaopin-list">
             <ul>
@@ -630,6 +630,101 @@
                     <div class="fr">上海</div>
                 </li>
             </ul>
+            <!--设计-->
+            <ul style="display: none">
+                <li>
+                    <div class="fl">设计师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">插画师</div>
+                    <div class="fr">上海</div>
+                </li>
+
+            </ul>
+            <!--影业-->
+            <ul style="display: none">
+
+                <li>
+                    <div class="fl">美食编导</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">美食主播</div>
+                    <div class="fr">上海</div>
+                </li>
+            </ul>
+            <!--销售-->
+            <ul style="display: none">
+                <li>
+                    <div class="fl">城市经理</div>
+                    <div class="fr">南京</div>
+                </li>
+                <li>
+                    <div class="fl">销售顾问</div>
+                    <div class="fr">上海</div>
+                </li>
+            </ul>
+            <!--人事-->
+            <ul style="display: none">
+                <li>
+                    <div class="fl">员工关系专员</div>
+                    <div class="fr">上海</div>
+                </li>
+
+            </ul>
+            <!--全部-->
+            <ul style="display: none">
+                <li>
+                    <div class="fl">前端工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">高级后端（python）工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">高级JAVA工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">IOS工程师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">架构师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">设计师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">插画师</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">美食编导</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">美食主播</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">城市经理</div>
+                    <div class="fr">南京</div>
+                </li>
+                <li>
+                    <div class="fl">销售顾问</div>
+                    <div class="fr">上海</div>
+                </li>
+                <li>
+                    <div class="fl">员工关系专员</div>
+                    <div class="fr">上海</div>
+                </li>
+            </ul>
+
             <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="" style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a></p>
 
         </div>
@@ -699,6 +794,15 @@
 </div>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/app.js"></script>
-
+<script>
+    $(function () {
+        $(".job-title span").click(function () {
+            var idx = $(this).attr('data');
+            $(".job-title span").removeClass('active')
+            $(this).addClass('active');
+            $('.zhaopin-list ul').eq(idx).show().siblings('ul').hide();
+        })
+    })
+</script>
 </body>
 </html>
