@@ -472,48 +472,33 @@
     <div class="image-list">
         <ul>
             <li style="width: 100%;text-align: center">
-                <img src="./static/images/pic-a1.jpg">
-                <img src="./static/images/pic-b1.jpg">
-                <img src="./static/images/pic-c1.jpg">
-
-                <img src="./static/images/pic-d1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
+                <img src="./static/images/pic-a1.jpg" data = '0'>
+                <img src="./static/images/pic-b1.jpg" data = '1'>
+                <img src="./static/images/pic-c1.jpg"  data = '1'>
+                <img src="./static/images/pic-d1.jpg"  data = '1'>
                 <img src="./static/images/pic-e1.jpg">
                 <img src="./static/images/pic-f1.jpg">
-
                 <img src="./static/images/pic-g1.jpg">
                 <img src="./static/images/pic-h1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
                 <img src="./static/images/pic-i1.jpg">
-
                 <img src="./static/images/pic-j1.jpg">
                 <img src="./static/images/pic-k1.jpg">
                 <img src="./static/images/pic-l1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
                 <img src="./static/images/pic-m1.jpg">
                 <img src="./static/images/pic-n1.jpg">
                 <img src="./static/images/pic-o1.jpg">
 
                 <img src="./static/images/pic-p1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
                 <img src="./static/images/pic-q1.jpg">
                 <img src="./static/images/pic-r1.jpg">
 
                 <img src="./static/images/pic-s1.jpg">
                 <img src="./static/images/pic-t1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
                 <img src="./static/images/pic-u1.jpg">
 
                 <img src="./static/images/pic-v1.jpg">
                 <img src="./static/images/pic-w1.jpg">
                 <img src="./static/images/pic-x1.jpg">
-            </li>
-            <li style="width: 100%;text-align: center">
                 <img src="./static/images/pic-y1.jpg">
                 <img src="./static/images/pic-z1.jpg">
             </li>
@@ -725,7 +710,7 @@
                 </li>
             </ul>
 
-            <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="" style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a></p>
+            <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="https://www.lagou.com/gongsi/j86312.html" style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a></p>
 
         </div>
     </div>
@@ -802,6 +787,78 @@
             $(this).addClass('active');
             $('.zhaopin-list ul').eq(idx).show().siblings('ul').hide();
         })
+
+
+
+        var pic1 = [
+            "./static/images/a1.jpg",
+            "./static/images/b1.jpg",
+            "./static/images/c1.jpg",
+            "./static/images/d1.jpg",
+            "./static/images/e1.jpg",
+            "./static/images/f1.jpg",
+            "./static/images/g1.jpg",
+            "./static/images/h1.jpg",
+            "./static/images/i1.jpg",
+            "./static/images/j1.jpg",
+            "./static/images/k1.jpg",
+            "./static/images/l1.jpg",
+            "./static/images/m1.jpg",
+            "./static/images/n1.jpg",
+            "./static/images/o1.jpg",
+            "./static/images/p1.jpg",
+            "./static/images/q1.jpg",
+            "./static/images/r1.jpg",
+            "./static/images/s1.jpg",
+            "./static/images/t1.jpg",
+            "./static/images/u1.jpg",
+            "./static/images/v1.jpg",
+            "./static/images/w1.jpg",
+            "./static/images/x1.jpg",
+            "./static/images/y1.jpg",
+            "./static/images/z1.jpg"
+        ];
+        var pic2 = [
+            "./static/images/a2.jpg",
+            "./static/images/b2.jpg",
+            "./static/images/c2.jpg",
+            "./static/images/d2.jpg",
+            "./static/images/e2.jpg",
+            "./static/images/f2.jpg",
+            "./static/images/g2.jpg",
+            "./static/images/h2.jpg",
+            "./static/images/i2.jpg",
+            "./static/images/j2.jpg",
+            "./static/images/k2.jpg",
+            "./static/images/l2.jpg",
+            "./static/images/m2.jpg",
+            "./static/images/n2.jpg",
+            "./static/images/o2.jpg",
+            "./static/images/p2.jpg",
+            "./static/images/q2.jpg",
+            "./static/images/r2.jpg",
+            "./static/images/s2.jpg",
+            "./static/images/t2.jpg",
+            "./static/images/u2.jpg",
+            "./static/images/v2.jpg",
+            "./static/images/w2.jpg",
+            "./static/images/x2.jpg",
+            "./static/images/y2.jpg",
+            "./static/images/z2.jpg"
+        ]
+
+        $('.image-list img').each(function (index,ele) {
+            $(this).click(function () {
+                var originPic = $(this).attr('src');
+                $(this).attr('src',pic2[index])
+                var that = this;
+                setTimeout(function () {
+                    $(that).attr('src',originPic)
+                },1000)
+            })
+        })
+
+
     })
 </script>
 </body>

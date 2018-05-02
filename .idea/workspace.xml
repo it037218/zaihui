@@ -2,8 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f162fdfb-61e5-4c34-b251-2ee97825239a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/e2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/i1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/i2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/j1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/j2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/k1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/k2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/l1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/m1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/m2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/n1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/n2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/o1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/o2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/q1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/q2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/r1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swiper1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swiper2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swiper3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swiper4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swiper5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/u1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/u2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/v1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/w1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/w2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/x2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/y1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/y2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/z1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/z2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutus1.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/a1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/a1.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +77,13 @@
       <file leaf-file-name="aboutus1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aboutus1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="802" column="71" selection-start-line="802" selection-start-column="71" selection-end-line="802" selection-end-column="71" />
+            <state relative-caret-position="284">
+              <caret line="855" column="48" selection-start-line="855" selection-start-column="48" selection-end-line="855" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#10;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#11;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#2;n#div#2;n#article#2;n#body#0;n#html#0;n#!!top" />
@@ -236,12 +289,12 @@
       <updated>1524279734618</updated>
       <workItem from="1524279736770" duration="9011000" />
       <workItem from="1524486961009" duration="34833000" />
-      <workItem from="1524839939870" duration="15419000" />
+      <workItem from="1524839939870" duration="16194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59263000" />
+    <option name="totallyTimeSpent" value="60038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -667,17 +720,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="802" column="71" selection-start-line="802" selection-start-column="71" selection-end-line="802" selection-end-column="71" />
+        <state relative-caret-position="284">
+          <caret line="855" column="48" selection-start-line="855" selection-start-column="48" selection-end-line="855" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#10;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#11;n#article#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#2;n#div#2;n#article#2;n#body#0;n#html#0;n#!!top" />
