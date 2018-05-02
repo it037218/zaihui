@@ -27,20 +27,20 @@ $(function () {
 });
 $(function () {
     $(".menu").click(function () {
-        $(".menu-list").css('transform','translate(-15.71rem)')
+        $(".menu-list").css('transform', 'translate(-15.71rem)')
         $('.cover').show()
 
 
     })
     $(".cover").click(function () {
-        $(".menu-list").css('transform','translate(0)')
+        $(".menu-list").css('transform', 'translate(0)')
         $(this).hide()
 
     })
 })
 
 
-$(function(){
+$(function () {
     var showImgList = [
         './static/images/swiper-1.png',
         './static/images/swiper-2.png',
@@ -50,19 +50,25 @@ $(function(){
     ];
     let index = 0;
     let liList = $('.cont-item');
-    setInterval(function(){
-        if(index >= liList.length - 1){
-            liList.eq(index).animate({left: '-20%', opacity: 0},600,function() {
-              liList.eq(0).animate({left: 0, opacity: 1}, 600);
+    setInterval(function () {
+
+        if (index >= liList.length - 1) {
+            liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
+                liList.eq(0).animate({left: 0, opacity: 1}, 600);
+                console.log(index)
+                $(".swiper-show img").attr('src', showImgList[index])
+
             });
+
             index = 0;
-        }else{
-            liList.eq(index).animate({left: '-20%', opacity: 0},600,function() {
-              liList.eq(index + 1).animate({left: 0, opacity: 1}, 600);
-              index ++;
+        } else {
+            liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
+                liList.eq(index + 1).animate({left: 0, opacity: 1}, 600);
+                index++;
+
+                $(".swiper-show img").attr('src', showImgList[index])
             });
         }
-        $(".swiper-show img").attr('src',showImgList[index])
 
-    },4000)
+    }, 4000)
 });
