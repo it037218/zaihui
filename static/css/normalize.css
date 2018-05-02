@@ -456,4 +456,5 @@ textarea {
 }
 body{
     position: relative;
+    overflow: hidden;
 }
