@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f162fdfb-61e5-4c34-b251-2ee97825239a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus1.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conact.html" beforeDir="false" afterPath="$PROJECT_DIR$/conact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_brandservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_brandservice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_jukefu.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_jukefu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_kehuitou.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_kehuitou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_moshushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_moshushi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_zhihuixin.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_zhihuixin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trend.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +51,8 @@
       <file leaf-file-name="conact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="510" selection-start-line="510" selection-end-line="510" />
+            <state relative-caret-position="165">
+              <caret line="466" column="9" lean-forward="true" selection-start-line="466" selection-end-line="510" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
@@ -70,19 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="515" selection-start-line="515" selection-end-line="515" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#4;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="499" column="55" selection-start-line="499" selection-start-column="55" selection-end-line="499" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -201,15 +185,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trend.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trend.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="316">
               <caret line="468" selection-start-line="468" selection-end-line="468" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -290,13 +273,13 @@
         <option value="$PROJECT_DIR$/case_create.html" />
         <option value="$PROJECT_DIR$/case_list.html" />
         <option value="$PROJECT_DIR$/conact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/product_brandservice.html" />
         <option value="$PROJECT_DIR$/product_jukefu.html" />
         <option value="$PROJECT_DIR$/product_kehuitou.html" />
         <option value="$PROJECT_DIR$/product_moshushi.html" />
         <option value="$PROJECT_DIR$/product_zhihuixin.html" />
         <option value="$PROJECT_DIR$/trend.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -333,24 +316,6 @@
               <item name="zaihui" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zaihui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaihui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaihui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaihui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zaihui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zaihui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -368,8 +333,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static/images/net" />
@@ -406,12 +371,12 @@
       <updated>1524279734618</updated>
       <workItem from="1524279736770" duration="9011000" />
       <workItem from="1524486961009" duration="34833000" />
-      <workItem from="1524839939870" duration="16342000" />
+      <workItem from="1524839939870" duration="16638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60186000" />
+    <option name="totallyTimeSpent" value="60482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -715,33 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="510" selection-start-line="510" selection-end-line="510" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#article#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product_brandservice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -848,13 +786,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trend.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="316">
           <caret line="468" selection-start-line="468" selection-end-line="468" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="466" column="9" lean-forward="true" selection-start-line="466" selection-end-line="510" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#article#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="499" column="55" selection-start-line="499" selection-start-column="55" selection-end-line="499" selection-end-column="55" />
         </state>
       </provider>
     </entry>

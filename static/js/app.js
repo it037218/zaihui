@@ -41,33 +41,35 @@ $(function () {
 
 
 $(function () {
-    var showImgList = [
+    /*var showImgList = [
         './static/images/swiper-1.png',
         './static/images/swiper-2.png',
         './static/images/swiper-3.png',
         './static/images/swiper-4.png',
         './static/images/swiper-5.png',
-    ];
+    ];*/
     let index = 0;
+    let imgList = $('.swiper-show img');
     let liList = $('.cont-item');
+    imgList.eq(index).show();
+
     setInterval(function () {
 
         if (index >= liList.length - 1) {
             liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
                 liList.eq(0).animate({left: 0, opacity: 1}, 600);
-                console.log(index)
-                $(".swiper-show img").attr('src', showImgList[index])
-
             });
-
+            imgList.eq(index).fadeOut(1500);
+            imgList.eq(0).fadeIn(1500);
             index = 0;
         } else {
             liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
                 liList.eq(index + 1).animate({left: 0, opacity: 1}, 600);
                 index++;
-
-                $(".swiper-show img").attr('src', showImgList[index])
             });
+            imgList.eq(index).fadeOut(1500);
+            imgList.eq(index + 1).fadeIn(1500);
+
         }
 
     }, 4000)

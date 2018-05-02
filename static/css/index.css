@@ -69,6 +69,10 @@
 .index-header-content .swiper-show img {
     width: 19.7rem;
     /*height: 20.5rem;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -9.75rem;
+    display: none;
 }
 
 .content-wrapper {
