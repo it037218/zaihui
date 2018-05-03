@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/header.css">
+
     <style>
         .header-content {
             background: url("./static/images/kehuitou-header-bg.png") no-repeat;
@@ -23,25 +25,29 @@
             width: 100%;
             padding-top: 1px;
         }
-        .header-content p{
+
+        .header-content p {
             color: #fff;
             text-align: center;
             /*letter-spacing:1px*/
         }
-        .header-content p:first-child{
+
+        .header-content p:first-child {
             font-size: 1.7rem;
             margin-top: 7.5rem;
         }
-        .header-content p:nth-child(2){
+
+        .header-content p:nth-child(2) {
             margin-top: .5rem;
             font-size: .86rem;
         }
 
-        .header-content p:nth-child(3){
+        .header-content p:nth-child(3) {
             font-size: .86rem;
             margin-top: .5rem;
             line-height: 2rem;
         }
+
         .footer-content {
             background-color: #F2F2F2;
             padding-top: 1px;
@@ -55,14 +61,17 @@
         .footer-content .footer-title {
             color: #7E7E7E;
         }
-        .footer-content .remark p{
+
+        .footer-content .remark p {
             color: #7E7E7E;
             text-align: center;
         }
-        .footer-content .remark p:first-child{
+
+        .footer-content .remark p:first-child {
             margin-top: 2.78rem;
         }
-        .footer-content .remark p:last-child{
+
+        .footer-content .remark p:last-child {
             font-size: 1rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
@@ -94,73 +103,28 @@
             font-size: .86rem;
             line-height: 1.7rem;
         }
-        .content-wrapper ul li{
+
+        .content-wrapper ul li {
             overflow: hidden;
             padding: 2rem;
             box-sizing: border-box;
         }
-        .content-wrapper ul li div:first-child{
+
+        .content-wrapper ul li div:first-child {
             text-align: center;
         }
-        .content-wrapper ul li div:first-child img{
+
+        .content-wrapper ul li div:first-child img {
             height: 4.5rem;
         }
     </style>
 </head>
 <body style="overflow: hidden;position: relative">
 <!--头部-->
-<style>
-    #header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-        width: 100%;
-        height: 5rem;
-    }
-
-    #header .logo {
-        display: inline-block;
-        width: 6.4rem;
-        height: 2.3rem;
-        margin-top: 1.5rem;
-        margin-left: 2rem;
-        background: url("./static/images/logo-1.png");
-        background-size: cover;
-    }
-
-    #header .menu {
-        padding-top: 1.2rem;
-        padding-right: .5rem;
-    }
-
-    #header .menu span {
-        font-size: 1.4rem;
-        color: #fff;
-    }
-
-    #header .menu img {
-        height: 1.4rem;
-    }
-
-    #header > div {
-        position: relative;
-    }
-
-    #header .menu-list {
-        position: absolute;
-        right: 0;
-        top: 0;
-        background-color: #fff;
-        width: 15.71rem;
-        transition: all 0.5s ease;
-
-    }
-</style>
-
 <article id="header">
     <div>
-        <span class="logo"></span>
+        <span class="logo"><a href="./index.html" style="display: block;width: 100%;height: 100%">
+            </a></span>
         <div class="menu fr">
             <span>
             再惠
@@ -169,9 +133,10 @@
         </div>
         <div class="menu-list">
             <style>
-                .menu-list{
-                    right: -15.71rem!important;
+                .menu-list {
+                    right: -15.71rem !important;
                 }
+
                 .accordion {
                     width: 100%;
                     max-width: 360px;
@@ -183,7 +148,7 @@
                     /*display: none;*/
                 }
 
-                .accordion  {
+                .accordion {
                     padding: 0 1.71rem;
 
                 }
@@ -203,11 +168,13 @@
                     box-sizing: border-box;
                     text-align: left;
                 }
-                .link a{
+
+                .link a {
                     text-decoration: none;
                     color: #4D4D4D;
 
                 }
+
                 .accordion li:last-child .link {
                     border-bottom: 0;
                 }
@@ -300,13 +267,13 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./conact.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
+
                 </li>
             </ul>
         </div>
     </div>
 </article>
-
 
 
 <article class="header-content">
@@ -368,22 +335,23 @@
     <p class="p1" style="margin-top: 0">主动营销</p>
     <p class="p2">在每个重要的日子，让会员形影相随</p>
     <ul>
-        <li>
+        <li style="padding: 1rem">
             <div class="fl w50">
-                <img src="./static/images/ke-04.jpg">
+                <img src="./static/images/ke-04.jpg" style="height: 7.14rem">
             </div>
-            <div class="fl w50 p3">
+            <div class="fl w50 p3" style="padding-top: .5rem">
                 针对不同的活动，<br>
                 个性化筛选合适的会员，<br>
                 提升参与度和活动效果
 
             </div>
         </li>
-        <li>
+        <li style="padding:1rem">
+
             <div class="fr w50">
-                <img src="./static/images/ke-05.jpg">
+                <img src="./static/images/ke-05.jpg" style="height: 7.14rem">
             </div>
-            <div class="fl w50 p3">
+            <div class="fl w50 p3" style="padding-top: 2.5rem">
                 多种优惠模板，简单、高效，
                 帮助商户玩转营销
             </div>
@@ -437,7 +405,7 @@
 
 </article>
 <style>
-    .cover{
+    .cover {
         background: #000;
         opacity: .5;
         height: 100%;

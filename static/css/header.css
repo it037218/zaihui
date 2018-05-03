@@ -1,0 +1,45 @@
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 5rem;
+}
+
+#header .logo {
+    display: inline-block;
+    width: 4.6rem;
+    height: 1.64rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    background: url("../images/logo-1.png");
+    background-size: cover;
+}
+
+#header .menu {
+    padding-top: 1.2rem;
+    padding-right: .5rem;
+}
+
+#header .menu span {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+#header .menu img {
+    height: 1.4rem;
+}
+
+#header > div {
+    position: relative;
+}
+
+#header .menu-list {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    width: 15.71rem;
+    transition: all 0.5s ease;
+}

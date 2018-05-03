@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/header.css">
+
     <link rel="stylesheet" href="./static/css/swiper-4.1.6.min.css">
     <style>
         .header-content {
@@ -81,52 +83,6 @@
 <body style="overflow: hidden;position: relative">
 <!--头部-->
 <style>
-    #header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1000;
-        width: 100%;
-        height: 5rem;
-    }
-
-    #header .logo {
-        display: inline-block;
-        width: 6.4rem;
-        height: 2.3rem;
-        margin-top: 1.5rem;
-        margin-left: 2rem;
-        background: url("./static/images/logo-1.png");
-        background-size: cover;
-    }
-
-    #header .menu {
-        padding-top: 1.2rem;
-        padding-right: .5rem;
-    }
-
-    #header .menu span {
-        font-size: 1.4rem;
-        color: #fff;
-    }
-
-    #header .menu img {
-        height: 1.4rem;
-    }
-
-    #header > div {
-        position: relative;
-    }
-
-    #header .menu-list {
-        position: absolute;
-        right: 0;
-        top: 0;
-        background-color: #fff;
-        width: 15.71rem;
-        transition: all 0.5s ease;
-
-    }
     .content-wrapper ul{
         padding:  0 2.14rem;
     }
@@ -180,7 +136,8 @@
 
 <article id="header">
     <div>
-        <span class="logo"></span>
+        <span class="logo"><a href="./index.html" style="display: block;width: 100%;height: 100%">
+            </a></span>
         <div class="menu fr">
             <span>
             再惠
@@ -323,7 +280,7 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./conact.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
                 </li>
             </ul>
         </div>

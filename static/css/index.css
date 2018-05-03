@@ -95,7 +95,7 @@
     overflow: hidden;
 }
 .content-wrapper .content-list li img{
-    width: 4rem;
+    width: 6rem;
     margin-bottom: 1rem;
 }
 
@@ -151,7 +151,7 @@
 
 }
 .core-adv li img{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .txtl p{
     text-align: left!important;
