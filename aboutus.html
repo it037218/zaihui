@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/swiper-4.1.6.min.css">
 
     <style>
         .header-content {
@@ -26,25 +27,28 @@
             padding-top: 1px;
         }
 
-        .header-content p{
+        .header-content p {
             color: #fff;
             text-align: center;
             /*letter-spacing:1px*/
         }
-        .header-content p:first-child{
+
+        .header-content p:first-child {
             font-size: 1.7rem;
             margin-top: 5.36rem;
         }
-        .header-content p:nth-child(2){
+
+        .header-content p:nth-child(2) {
             margin-top: .5rem;
             font-size: .86rem;
         }
 
-        .header-content p:nth-child(3){
+        .header-content p:nth-child(3) {
             font-size: .86rem;
             margin-top: .5rem;
             line-height: 2rem;
         }
+
         .footer-content {
             background-color: #F2F2F2;
             padding-top: 1px;
@@ -58,14 +62,17 @@
         .footer-content .footer-title {
             color: #7E7E7E;
         }
-        .footer-content .remark p{
+
+        .footer-content .remark p {
             color: #7E7E7E;
             text-align: center;
         }
-        .footer-content .remark p:first-child{
+
+        .footer-content .remark p:first-child {
             margin-top: 2.78rem;
         }
-        .footer-content .remark p:last-child{
+
+        .footer-content .remark p:last-child {
             font-size: 1rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
@@ -76,12 +83,14 @@
             font-size: 1.43rem;
             margin-top: 2.85rem;
         }
-        .about-content .summ{
+
+        .about-content .summ {
             font-size: 1rem;
             color: #58AFFF;
             text-align: center;
             margin-top: 1.5rem;
         }
+
         .about-content .text {
             font-size: .86rem;
             color: #4F4F4F;
@@ -89,51 +98,64 @@
             padding: 0 .71rem;
             box-sizing: border-box;
         }
-        .about-content>p{
-            text-align: center!important;
+
+        .about-content > p {
+            text-align: center !important;
         }
+
         .show-image li {
             width: 100%;
             text-align: center;
         }
-        .show-image li img{
+
+        .show-image li img {
             width: 10.71rem;
             margin-top: 3.57rem;
         }
-        .show-image li img:first-child{
+
+        .show-image li img:first-child {
             margin-top: 1.85rem;
         }
-        .show-image li img:last-child{
+
+        .show-image li img:last-child {
             margin-bottom: 2.14rem;
         }
-        .process{
+
+        .process {
             margin-top: 1.64rem;
             overflow: hidden;
         }
-        .process li{
+
+        .process li {
             width: 100%;
             overflow: hidden;
             background: url("./static/images/aboutus-line.png") no-repeat;
             background-position: center;
         }
-        .process li.fltext div{
+
+        .process li.fltext div {
             float: left;
             width: 48%;
         }
-        .process li.frtext div{
+
+        .process li.frtext div {
             float: right;
             width: 48%;
         }
-        .process li.fltext p{
+
+        .process li.fltext p {
             text-align: right;
         }
-        .process li.frtext p{
+
+        .process li.frtext p {
             text-align: left;
         }
-        .process li div p:first-child{
+
+        .process li div p:first-child {
             position: relative;
         }
-        .process li.frtext div p:first-child:after{
+
+        .process li.frtext div p:first-child:after {
             content: "";
             position: absolute;
             height: 10px;
@@ -143,6 +165,7 @@
             left: -.9rem;
             top: 11px;
         }
+
         .process li.fltext div p:first-child:after {
             content: "";
             position: absolute;
@@ -153,7 +176,8 @@
             right: -.9rem;
             top: 11px;
         }
-
+        .swiper-container-fade .swiper-slide{opacity:0!important;}
+        .swiper-container-fade .swiper-slide-active{opacity:1!important;}
 
     </style>
 </head>
@@ -164,16 +188,14 @@
         <span class="logo"><a href="./index.html" style="display: block;width: 100%;height: 100%">
             </a></span>
         <div class="menu fr">
-            <span>
-            再惠
-            </span>
             <img src="./static/images/menu.png">
         </div>
         <div class="menu-list">
             <style>
-                .menu-list{
-                    right: -15.71rem!important;
+                .menu-list {
+                    right: -15.71rem !important;
                 }
+
                 .accordion {
                     width: 100%;
                     max-width: 360px;
@@ -185,7 +207,7 @@
                     /*display: none;*/
                 }
 
-                .accordion  {
+                .accordion {
                     padding: 0 1.71rem;
 
                 }
@@ -205,11 +227,13 @@
                     box-sizing: border-box;
                     text-align: left;
                 }
-                .link a{
+
+                .link a {
                     text-decoration: none;
                     color: #4D4D4D;
 
                 }
+
                 .accordion li:last-child .link {
                     border-bottom: 0;
                 }
@@ -302,13 +326,13 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
             </ul>
         </div>
     </div>
 </article>
-
 
 
 <article class="header-content">
@@ -342,89 +366,111 @@
         都是为了下一次更好的相会。
     </p>
     <p class="title">使命&愿景</p>
-    <p class="summ">
-        让开店成为一种享受
-    </p>
-    <p class="text">
-        通过互联网技术，让每笔交易做到心中有数，让每个会员对你不弃不离。<br>
-        每一笔支付都是生活的温度，每一次交易都连接着友谊。<br>
-        再惠为所有勤奋、敬业、匠心至诚的餐饮创业者点赞和赋能,每一位认真创业的老板，都值得我们认真对待。
-    </p>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <p class="summ">
+                        让开店成为一种享受
+                    </p>
+                    <p class="text" style="text-align: center;">
+                        通过互联网技术，让每笔交易做到心中有数，让每个会员对你不弃不离。<br>
+                        每一笔支付都是生活的温度，每一次交易都连接着友谊。<br>
+                        再惠为所有勤奋、敬业、匠心至诚的餐饮创业者点赞和赋能,每一位认真创业的老板，都值得我们认真对待。
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <p class="summ">
+                        成为吃喝玩乐的第一信息入口
+                    </p>
+                    <p class="text" style="text-align: center">
+                        从前，用户在茫茫信息中主动搜索所需；<br>
+                        如今，通过大数据分析用户画像，精准推送合适的信息。<br>
+                        从前，消费者努力思考今天吃什么玩什么；<br>
+                        如今，量身定制的推送信息，让选择变得简单且合乎心意。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <p class="title">发展历程</p>
     <div class="process">
         <ul>
             <li class="fltext">
                 <div>
-                <p class="process-title">2018年1月</p>
-                <p class="text">成立合肥、福州分公司</p>
+                    <p class="process-title">2018年1月</p>
+                    <p class="text">成立合肥、福州分公司</p>
                 </div>
             </li>
             <li class="frtext">
                 <div>
 
-                <p class="process-title">2017年11月</p>
-                <p class="text">成立无锡、厦门、武汉分公司</p>
+                    <p class="process-title">2017年11月</p>
+                    <p class="text">成立无锡、厦门、武汉分公司</p>
                 </div>
             </li>
             <li class="fltext">
                 <div>
 
-                <p class="process-title">2017年9月</p>
-                <p class="text">获得两千万美元B轮融资
-                    蓝湖资本领投，光速中国、
-                    真格基金、DCM跟投</p>
+                    <p class="process-title">2017年9月</p>
+                    <p class="text">获得两千万美元B轮融资
+                        蓝湖资本领投，光速中国、
+                        真格基金、DCM跟投</p>
                 </div>
             </li>
             <li class="frtext">
                 <div>
 
-                <p class="process-title">2017年5月</p>
-                <p class="text">成立绍兴分公司</p>
+                    <p class="process-title">2017年5月</p>
+                    <p class="text">成立绍兴分公司</p>
                 </div>
             </li>
             <li class="fltext">
                 <div>
 
-                <p class="process-title">2017年3月</p>
-                <p class="text">成立杭州、南京分公司</p>
+                    <p class="process-title">2017年3月</p>
+                    <p class="text">成立杭州、南京分公司</p>
                 </div>
             </li>
             <li class="frtext">
                 <div>
 
-                <p class="process-title">2016年10月</p>
-                <p class="text">成立宁波分公司</p>
+                    <p class="process-title">2016年10月</p>
+                    <p class="text">成立宁波分公司</p>
                 </div>
             </li>
             <li class="fltext">
                 <div>
 
-                <p class="process-title">2016年8月</p>
-                <p class="text">成立苏州分公司</p>
+                    <p class="process-title">2016年8月</p>
+                    <p class="text">成立苏州分公司</p>
                 </div>
             </li>
             <li class="frtext">
                 <div>
 
-                <p class="process-title">2016年5月</p>
-                <p class="text">获得近千万美元A轮融资，
-                    DCM领投，光速中国、真格基金
-                    贝塔斯曼亚洲创业基金跟投</p>
+                    <p class="process-title">2016年5月</p>
+                    <p class="text">获得近千万美元A轮融资，
+                        DCM领投，光速中国、真格基金
+                        贝塔斯曼亚洲创业基金跟投</p>
                 </div>
             </li>
             <li class="fltext">
                 <div>
 
-                <p class="process-title">2015年11月</p>
-                <p class="text">产品正式上线</p>
+                    <p class="process-title">2015年11月</p>
+                    <p class="text">产品正式上线</p>
                 </div>
             </li>
             <li class="frtext">
                 <div>
 
-                <p class="process-title">2015年7月</p>
-                <p class="text">获得数百万美元天使轮融资，
-                    真格基金和光速中国联合领投</p>
+                    <p class="process-title">2015年7月</p>
+                    <p class="text">获得数百万美元天使轮融资，
+                        真格基金和光速中国联合领投</p>
                 </div>
             </li>
         </ul>
@@ -494,7 +540,7 @@
 
 </article>
 <style>
-    .cover{
+    .cover {
         background: #000;
         opacity: .5;
         height: 100%;
@@ -511,6 +557,13 @@
 </div>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/app.js"></script>
+<script src="./static/js/swiper-4.1.6.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        effect: 'fade',
+        autoplay: true,//可选选项，自动滑动
 
+    })
+</script>
 </body>
 </html>

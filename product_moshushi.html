@@ -139,9 +139,7 @@
         <span class="logo"><a href="./index.html" style="display: block;width: 100%;height: 100%">
             </a></span>
         <div class="menu fr">
-            <span>
-            再惠
-            </span>
+
             <img src="./static/images/menu.png">
         </div>
         <div class="menu-list">
@@ -409,8 +407,9 @@
 <script src="./static/js/app.js"></script>
 <script src="./static/js/swiper-4.1.6.min.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container');
-
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: true,//可选选项，自动滑动
+    })
 </script>
 </body>
 </html>
