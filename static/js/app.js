@@ -59,7 +59,7 @@ $(function () {
             liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
                 liList.eq(0).animate({left: 0, opacity: 1}, 600);
             });
-            imgList.eq(index).fadeOut(300,'linear');
+            imgList.eq(index).fadeOut(600,'linear');
             imgList.eq(0).fadeIn();
             index = 0;
         } else {
@@ -67,7 +67,7 @@ $(function () {
                 liList.eq(index + 1).animate({left: 0, opacity: 1}, 600);
                 index++;
             });
-            imgList.eq(index).fadeOut(300,'linear');
+            imgList.eq(index).fadeOut(600,'linear');
             imgList.eq(index + 1).fadeIn();
 
         }
