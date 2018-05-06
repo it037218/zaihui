@@ -83,20 +83,23 @@
 <body style="overflow: hidden;position: relative">
 <!--头部-->
 <style>
-    .content-wrapper ul{
-        padding:  0 2.14rem;
+    .content-wrapper ul {
+        padding: 0 2.14rem;
     }
-    .content-wrapper .p1{
+
+    .content-wrapper .p1 {
         text-align: left;
         font-size: 1.14rem;
         color: #76B6E4;
         margin-top: 2.14rem;
         margin-bottom: .7rem;
     }
-    .content-wrapper .p2{
+
+    .content-wrapper .p2 {
         font-size: .86rem;
     }
-    .show-bg{
+
+    .show-bg {
         background: url("./static/images/moshuzhi-show-bg.png");
         background-size: cover;
         margin: 3.5rem;
@@ -104,11 +107,13 @@
         height: 13.4rem;
         padding-top: 1px;
     }
+
     .swiper-container {
         width: 15.7rem;
         height: 11.4rem;
         margin: 1rem auto;
     }
+
     .swiper-slide {
         text-align: center;
         font-size: 18px;
@@ -128,7 +133,8 @@
         -webkit-align-items: center;
         align-items: center;
     }
-    .swiper-slide img{
+
+    .swiper-slide img {
         width: 100%;
         height: 100%;
     }
@@ -143,109 +149,6 @@
             <img src="./static/images/menu.png">
         </div>
         <div class="menu-list">
-            <style>
-                .menu-list {
-                    right: -15.71rem !important;
-                }
-
-                .accordion {
-                    width: 100%;
-                    max-width: 360px;
-                    padding-top: 1rem;
-                    padding-bottom: 3rem;
-                    background: #FFF;
-                    -webkit-border-radius: 4px;
-                    border-radius: 4px;
-                    /*display: none;*/
-                }
-
-                .accordion {
-                    padding: 0 1.71rem;
-
-                }
-
-                .accordion .link {
-                    display: block;
-                    height: 2.57rem;
-                    line-height: 2.57rem;
-                    color: #4D4D4D;
-                    font-size: 1.14rem;
-                    font-weight: 700;
-                    border-bottom: 1px solid #CCC;
-                    position: relative;
-                    -webkit-transition: all 0.4s ease;
-                    -o-transition: all 0.4s ease;
-                    transition: all 0.4s ease;
-                    box-sizing: border-box;
-                    text-align: left;
-                }
-
-                .link a {
-                    text-decoration: none;
-                    color: #4D4D4D;
-
-                }
-
-                .accordion li:last-child .link {
-                    border-bottom: 0;
-                }
-
-                .accordion li i {
-                    position: absolute;
-                    top: 16px;
-                    left: 12px;
-                    font-size: 18px;
-                    color: #595959;
-                    -webkit-transition: all 0.4s ease;
-                    -o-transition: all 0.4s ease;
-                    transition: all 0.4s ease;
-                }
-
-                .accordion li i.fa-chevron-down {
-                    right: 12px;
-                    left: auto;
-                    font-size: 16px;
-                }
-
-                .accordion li.open .link {
-                    color: #b63b4d;
-                }
-
-                .accordion li.open i {
-                    color: #b63b4d;
-                }
-
-                .accordion li.open i.fa-chevron-down {
-                    -webkit-transform: rotate(180deg);
-                    -ms-transform: rotate(180deg);
-                    -o-transform: rotate(180deg);
-                    transform: rotate(180deg);
-                }
-
-                /**
-                 * Submenu
-                 -----------------------------*/
-                .submenu {
-                    display: none;
-                    font-size: .85rem;
-                    text-align: left;
-                }
-
-                .submenu li {
-                    height: 2rem;
-                    padding-left: 1.71rem;
-                    line-height: 2rem;
-                }
-
-                .submenu a {
-                    display: block;
-                    text-decoration: none;
-                    -webkit-transition: all 0.25s ease;
-                    -o-transition: all 0.25s ease;
-                    transition: all 0.25s ease;
-                    color: #000;
-                }
-            </style>
             <ul id="accordion" class="accordion">
                 <li>
                     <div class="link"><i class="fa fa-paint-brush"></i><a href="./index.html">首页</a><i
@@ -278,7 +181,8 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
             </ul>
         </div>
@@ -298,14 +202,23 @@
         轻松调整经营策略，实现最佳营收效果。
     </p>
 </article>
-
+<style>
+    .swiper-slide-active {
+        margin-right: .2rem !important;
+    }
+    .swiper-container{
+        background-color: #000!important;
+    }
+</style>
 <article class="content-wrapper">
     <div class="show-bg">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./static/images/mo-01.png"></div>
-                <div class="swiper-slide"><img src="./static/images/mo-02.png"></div>
-                <div class="swiper-slide"><img src="./static/images/mo-03.png"></div>
+        <div style="margin: 0 auto;height: 100%;width: 100%;">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./static/images/mo-01.png"></div>
+                    <div class="swiper-slide"><img src="./static/images/mo-02.png"></div>
+                    <div class="swiper-slide"><img src="./static/images/mo-03.png"></div>
+                </div>
             </div>
         </div>
     </div>
