@@ -30,7 +30,7 @@ $(function () {
         $(".menu-list").css('transform', 'translate(-15.71rem)')
         $('.cover').show()
 
-
+        $('.menu-list').height($('body').height())
     })
     $(".cover").click(function () {
         $(".menu-list").css('transform', 'translate(0)')
