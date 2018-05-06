@@ -120,6 +120,29 @@
         #header .menu span{
             color: #000;
         }
+        .alert-model{
+            width: 22rem;
+            height: 9.29rem;
+            position: absolute;
+            left: 50%;
+            margin-left: -11rem;
+            top: 30%;
+            background-color: #fff;
+            border-radius: .35rem;
+            overflow: hidden;
+            z-index: 1000;
+            display: none;
+        }
+        .alert-model p{
+            text-align: center;
+        }
+        .alert-model .alert1{
+            font-size: 1.29rem;
+            margin-top: 2rem;
+        }
+        .alert-model .alert2{
+            font-size: .71rem;
+        }
     </style>
 </head>
 <body style="overflow: hidden;position: relative">
@@ -292,13 +315,13 @@
             </li>
             <li>
                 <p>省份</p>
-                <select>
+                <select class="province">
                     <option>选择</option>
                 </select>
             </li>
             <li>
                 <p>城市</p>
-                <select>
+                <select class="city">
                     <option>选择</option>
                 </select>
             </li>
@@ -310,7 +333,7 @@
                 </select>
             </li>
             <li>
-                <input type="button" value="提交" style="width: 4rem;float: right;background: #76B6E4;color: #fff;border: none;border-radius: .2rem">
+                <input type="button" class="submit-button" value="提交" style="width: 4rem;float: right;background: #76B6E4;color: #fff;border: none;border-radius: .2rem">
             </li>
         </ul>
         <p style="text-align: center;margin-top: 3.2rem;font-size: .85rem;color: #4F4F4F">
@@ -321,6 +344,19 @@
         </p>
     </div>
 </article>
+<div class="alert-model">
+    <p class="alert1">
+        您的信息已提交
+    </p>
+    <p class="alert2">
+        <span>3</span>秒后自动关闭
+    </p>
+    <p>
+        <button style="width: 4rem;background: #76B6E4;color: #fff;border: none;border-radius: .2rem;margin: 1rem auto">
+            关闭
+        </button>
+    </p>
+</div>
 <article class="footer-content">
     <div>
         <p class="footer-title">产品介绍</p>
@@ -383,5 +419,7 @@
 </div>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/app.js"></script>
+<script src="./static/js/city.js"></script>
+
 </body>
 </html>

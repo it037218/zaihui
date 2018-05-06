@@ -78,13 +78,49 @@
         }
 
         .content {
-            margin: 0 auto;
+            margin: 2rem auto;
             padding: 0 2rem;
             box-sizing: border-box;
-            background: url("./static/images/kehuitou-content-bg.png") no-repeat;
+            background: url("./static/images/kehuitou-content-bg.png?c=2") no-repeat;
             background-size: 90%;
             background-position: center;
-            height: 26.2rem;
+            height: 32.2rem;
+            position: relative;
+        }
+
+        .content > div {
+            position: absolute;
+        }
+
+        .content div:nth-child(1) {
+            right: 0;
+            top: 4.5rem;
+        }
+
+        .content div:nth-child(2) {
+            left: 0;
+            top: 9.5rem;
+        }
+
+        .content div:nth-child(3) {
+            right: 0;
+            top: 15rem;
+        }
+
+        .content div:nth-child(4) {
+            left: 0;
+            top: 20.5rem;
+        }
+
+        .content div:nth-child(5) {
+            right: 0;
+            top: 25.5rem;
+        }
+
+        .content div span:first-child {
+            font-size: .93rem;
+            font-weight: 600;
+            display: inline-block;
         }
 
         .p1 {
@@ -264,7 +300,8 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i
+                            class="fa fa-chevron-down"></i></div>
 
                 </li>
             </ul>
@@ -328,7 +365,49 @@
     </div>
     <p class="p1">五维忠诚度营销</p>
     <p class="p2">科学管理，打动内心，触发行动</p>
-    <div class="content"></div>
+    <div class="content">
+        <div class="w50">
+            <span class="fl">
+                会员<br>等级
+            </span>
+            <span class="fl">
+                精细化分级，定制化权益<br> 激发会员欲升级的<br>消费动力
+            </span>
+        </div>
+        <div class="w50">
+            <span class="fr">
+                会员<br>积分
+            </span>
+            <span class="fr">
+                设置丰富的积分奖励<br> 提升会员消费频次<br> 和客单价
+            </span>
+        </div>
+        <div class="w50">
+            <span class="fl">
+                储值
+            </span>
+            <span class="fl">
+
+                提升会员忠诚度的同时<br> 迅速增加商户的现金<br>实现良性的快速发展
+            </span>
+        </div>
+        <div class="w50">
+            <span class="fr">
+                纪念日
+            </span>
+            <span class="fr">
+                在重要节日带给会员<br> 诚意的惊喜<br> 极大提升品牌美誉度
+            </span>
+        </div>
+        <div class="w50">
+            <span class="fl">
+                唤醒<br>游戏
+            </span>
+            <span class="fl">
+                用趣味游戏唤醒会员<br> 到店消费，<br> 提高会员活跃度
+            </span>
+        </div>
+    </div>
     <p class="p1" style="margin-top: 0">主动营销</p>
     <p class="p2">在每个重要的日子，让会员形影相随</p>
     <ul>

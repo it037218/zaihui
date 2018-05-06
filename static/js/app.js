@@ -59,16 +59,16 @@ $(function () {
             liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
                 liList.eq(0).animate({left: 0, opacity: 1}, 600);
             });
-            imgList.eq(index).fadeOut(1500);
-            imgList.eq(0).fadeIn(1500);
+            imgList.eq(index).hide();
+            imgList.eq(0).show();
             index = 0;
         } else {
             liList.eq(index).animate({left: '-20%', opacity: 0}, 600, function () {
                 liList.eq(index + 1).animate({left: 0, opacity: 1}, 600);
                 index++;
             });
-            imgList.eq(index).fadeOut(1500);
-            imgList.eq(index + 1).fadeIn(1500);
+            imgList.eq(index).hide();
+            imgList.eq(index + 1).show();
 
         }
 
