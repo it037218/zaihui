@@ -103,13 +103,15 @@
 .content-wrapper .content-list li p:first-of-type {
     font-size: 1rem;
     color: #727272;
-    text-align: center
+    text-align: center;
+    font-weight: 700;
 }
 .content-wrapper .content-list li p:nth-of-type(2){
     text-align: center;
     color: #4F4F4F;
     font-size: .86rem;
-    margin-top: .9rem;
+    margin-top: .5rem;
+    line-height: 1.43rem;
 }
 .content-wrapper .content-list.trust {
     overflow: hidden;
@@ -140,7 +142,7 @@
 
 }
 .content-list .summ{
-    font-size: .86rem;
+    font-size: 1rem;
     text-align: center;
     color: #58AFFF;
     margin: 1rem 0;
