@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/swiper-4.1.6.min.css">
 
     <style>
         .header-content {
-            background: url("./static/images/aboutus-header-bg.png") no-repeat;
+            /*background: url("./static/images/aboutus-header-bg.png") no-repeat;*/
             background-size: cover;
-            height: 16.42rem;
+            height: 10.5rem;
             width: 100%;
             padding-top: 1px;
         }
@@ -116,15 +117,18 @@
         .show-image li img:last-child {
             margin-bottom: 2.14rem;
         }
-        .message{
+
+        .message {
             padding: 0 1.43rem;
             overflow: hidden;
         }
-        .message li{
+
+        .message li {
             overflow: hidden;
             margin-top: 1.71rem;
         }
-        .message li span{
+
+        .message li span {
             display: inline-block;
             border: 2px solid #58AFFF;
             border-radius: 1.07rem;
@@ -133,26 +137,31 @@
             font-size: .71rem;
             padding: 0 .5rem;
         }
-        .text1{
+
+        .text1 {
             text-align: center;
             font-size: .71rem;
         }
-        .text2{
+
+        .text2 {
             text-align: center;
             color: #58AFFF;
             margin-top: 1rem;
             padding: 0 2.14rem;
         }
-        .zhaopin{
+
+        .zhaopin {
             overflow: hidden;
             margin-top: 3.2rem;
         }
-        .zhaopin .job-title{
+
+        .zhaopin .job-title {
             display: flex;
             justify-content: space-around;
             margin-bottom: 2.14rem;
         }
-        .zhaopin .job-title span{
+
+        .zhaopin .job-title span {
             display: inline-block;
             height: 1.79rem;
             line-height: 1.79rem;
@@ -161,39 +170,63 @@
             font-size: 1rem;
             padding: 0 2rem;
         }
-        .zhaopin .job-title span.active{
+
+        .zhaopin .job-title span.active {
             background-color: #58AFFF;
             color: #fff;
         }
-        .zhaopin-list{
+
+        .zhaopin-list {
             padding: 0 2.14rem;
         }
-        .zhaopin .zhaopin-list li{
+
+        .zhaopin .zhaopin-list li {
             overflow: hidden;
             box-sizing: border-box;
             border-bottom: 1px solid #ccc;
             height: 4.5rem;
         }
-        .zhaopin .zhaopin-list li div{
+
+        .zhaopin .zhaopin-list li div {
             height: 100%;
             line-height: 4.5rem;
         }
-        .image-list li{
+
+        .image-list li {
             box-sizing: border-box;
         }
-        .image-list li img{
+
+        .image-list li img {
             width: 24%;
         }
 
+
+        .swiper1 {
+            background: url("./static/images/us1.a81120c.jpg");
+        }
+
+        .swiper2 {
+            background: url("./static/images/us2.42269ac.jpg");
+        }
+
+        .swiper3 {
+            background: url("./static/images/us3.c0df06d.jpg");
+        }
+
+        .swiper-slide {
+            height: 10.5rem;
+            background-size: contain;
+        }
     </style>
 </head>
 <body style="overflow: hidden;position: relative">
 <!--头部-->
 <style>
-    .message li{
+    .message li {
         position: relative;
     }
-    @keyframes shake-between-left{
+
+    @keyframes shake-between-left {
         0% {
             transform: translateX(0px)
         }
@@ -201,7 +234,8 @@
             transform: translateX(30px)
         }
     }
-    @keyframes shake-between-right{
+
+    @keyframes shake-between-right {
         0% {
             transform: translateX(0px)
         }
@@ -209,35 +243,45 @@
             transform: translateX(-30px)
         }
     }
+
     .message li:nth-child(1) span {
-        animation:  shake-between-left 1s linear 1.5s infinite alternate
+        animation: shake-between-left 1s linear 1.5s infinite alternate
     }
+
     .message li:nth-child(2) span {
-        animation:  shake-between-right 1.25s linear 1.75s infinite alternate
+        animation: shake-between-right 1.25s linear 1.75s infinite alternate
     }
+
     .message li:nth-child(3) span {
-        animation:  shake-between-left 1.5s linear 2s infinite alternate
+        animation: shake-between-left 1.5s linear 2s infinite alternate
     }
+
     .message li:nth-child(4) span {
-        animation:  shake-between-right 1s linear 1.5s infinite alternate
+        animation: shake-between-right 1s linear 1.5s infinite alternate
     }
+
     .message li:nth-child(5) span {
-        animation:  shake-between-left 1.25s linear 1.75s infinite alternate
+        animation: shake-between-left 1.25s linear 1.75s infinite alternate
     }
+
     .message li:nth-child(6) span {
-        animation:  shake-between-right 1.5s linear 2s infinite alternate
+        animation: shake-between-right 1.5s linear 2s infinite alternate
     }
+
     .message li:nth-child(7) span {
-        animation:  shake-between-left 1s linear 1.5s infinite alternate
+        animation: shake-between-left 1s linear 1.5s infinite alternate
     }
+
     .message li:nth-child(8) span {
-        animation:  shake-between-right 1.25s linear 1.75s infinite alternate
+        animation: shake-between-right 1.25s linear 1.75s infinite alternate
     }
+
     .message li:nth-child(9) span {
-        animation:  shake-between-left 1.5s linear 2s infinite alternate
+        animation: shake-between-left 1.5s linear 2s infinite alternate
     }
+
     .message li:nth-child(10) span {
-        animation:  shake-between-right 1.75s linear 1.5s infinite alternate
+        animation: shake-between-right 1.75s linear 1.5s infinite alternate
     }
 </style>
 
@@ -281,7 +325,8 @@
                     </ul>
                 </li>
                 <li>
-                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i class="fa fa-chevron-down"></i></div>
+                    <div class="link"><i class="fa fa-mobile"></i><a href="./case_create.html">合作</a><i
+                            class="fa fa-chevron-down"></i></div>
                 </li>
             </ul>
         </div>
@@ -289,15 +334,16 @@
 </article>
 
 
-
 <article class="header-content">
-    <p>
-        再惠做什么
-    </p>
-    <p>
-        再惠以专业、领先的科技和及时、温暖的服务，<br>
-        为天下餐饮创业者打call。
-    </p>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper1"></div>
+            <div class="swiper-slide swiper2"></div>
+            <div class="swiper-slide swiper3"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
 </article>
 
 <article class="about-content">
@@ -327,10 +373,10 @@
     <div class="image-list">
         <ul>
             <li style="width: 100%;text-align: left">
-                <img src="./static/images/pic-a1.jpg" data = '0'>
-                <img src="./static/images/pic-b1.jpg" data = '1'>
-                <img src="./static/images/pic-c1.jpg"  data = '1'>
-                <img src="./static/images/pic-d1.jpg"  data = '1'>
+                <img src="./static/images/pic-a1.jpg" data='0'>
+                <img src="./static/images/pic-b1.jpg" data='1'>
+                <img src="./static/images/pic-c1.jpg" data='1'>
+                <img src="./static/images/pic-d1.jpg" data='1'>
                 <img src="./static/images/pic-e1.jpg">
                 <img src="./static/images/pic-f1.jpg">
                 <img src="./static/images/pic-g1.jpg">
@@ -565,7 +611,9 @@
                 </li>
             </ul>
 
-            <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="https://www.lagou.com/gongsi/j86312.html" style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a></p>
+            <p style="margin-bottom: 4rem;margin-top: 2.14rem"><a href="https://www.lagou.com/gongsi/j86312.html"
+                                                                  style="text-decoration: none;color: #58AFFF">查看所有招聘岗位</a>
+            </p>
 
         </div>
     </div>
@@ -617,7 +665,7 @@
 
 </article>
 <style>
-    .cover{
+    .cover {
         background: #000;
         opacity: .5;
         height: 100%;
@@ -634,6 +682,7 @@
 </div>
 <script src="./static/js/jquery.min.js"></script>
 <script src="./static/js/app.js"></script>
+<script src="./static/js/swiper-4.1.6.min.js"></script>
 <script>
     $(function () {
         $(".job-title span").click(function () {
@@ -642,7 +691,6 @@
             $(this).addClass('active');
             $('.zhaopin-list ul').eq(idx).show().siblings('ul').hide();
         })
-
 
 
         var pic1 = [
@@ -702,18 +750,24 @@
             "./static/images/z2.jpg"
         ]
 
-        $('.image-list img').each(function (index,ele) {
+        $('.image-list img').each(function (index, ele) {
             $(this).click(function () {
                 var originPic = $(this).attr('src');
-                $(this).attr('src',pic2[index])
+                $(this).attr('src', pic2[index])
                 var that = this;
                 setTimeout(function () {
-                    $(that).attr('src',originPic)
-                },1000)
+                    $(that).attr('src', originPic)
+                }, 1000)
             })
         })
 
 
+    })
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: true,//可选选项，自动滑动
+        pagination: {
+            el: '.swiper-pagination',
+        },
     })
 </script>
 </body>
