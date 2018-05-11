@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+</head>
+<body>
+<script type="text/javascript">
+    var oReq = new XMLHttpRequest();
+    oReq.open("GET", "./58d21b90000135a105400300-360-202.jpg", true);
+    oReq.responseType = "blob";
+    oReq.onreadystatechange = function () {
+        if (oReq.readyState == oReq.DONE) {
+            var blob = oReq.response;
+            console.log(blob)
+            return
+            var image = new Image();
+            image.addEventListener("load", function (evt) {
+                URL.revokeObjectURL(evt.target.src);
+                document.body.appendChild(image);
+            });
+            image.src = URL.createObjectURL(blob);
+        }
+    }
+    oReq.send();
+</script>
+</body>
+</html>
